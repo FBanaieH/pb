@@ -546,7 +546,7 @@ function updateTokenbar() {
       return '';
     var photo_name = "";
     var title = "<span style='font-size: 14px'>" + projects[idToIndex[id]].title;
-    var content = "<%=j t('approval.estimated_cost') %>: " + costWithDelimiter(costs[idToIndex[id]], currency_symbol) + "<br>" +
+    var content = "<%=j t('approval.estimated_tokens') %>: " + costWithDelimiter(costs[idToIndex[id]], '') + "<br>" +
       "<button type='button' class='btn btn-secondary' onclick='removeProject(" + id + ")'><%=j t('approval.remove_button').html_safe %></button>" +
       (photo_name ? ("<br><img src='/project_images/" + photo_name + "' class='budgerbar-thumb' />") : '') + "</span>";
     return "<a class='progress-bar bg-" + cls + "' " +
