@@ -105,6 +105,7 @@
                 <%= project.number %>.
               <% end %>
               <%= (!project.title.blank? ? project.title : "<span class='text-danger'>MISSING TITLE</span>").html_safe %>
+              <b>(</b> <span id="slider-value-<%= project.id %>" ></span> <b> Tokens) </b>
             </td>
           </tr>
         </table>
