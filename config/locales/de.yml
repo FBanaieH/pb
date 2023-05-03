@@ -57,6 +57,7 @@ de:
       sind, Ihre Wahl abzugeben.</li> </ol>
     list_of_projects: Projektliste
     estimated_cost: Geschätzte Kosten
+    estimated_tokens: Geschätzte Punkte
     tokens_used: Verwendeter Punkte
     tokens: Punkte
     youtube_video: YouTube-Video
