@@ -46,6 +46,8 @@ en:
                    </ol>"
     list_of_projects: "List of Projects"
     estimated_cost: "Estimated Cost"
+    tokens_used: "Tokens Used"
+    tokens: "Tokens"
     youtube_video: "YouTube video"
     location: "Location"
     partner: "Partner"
