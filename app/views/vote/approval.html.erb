@@ -130,16 +130,23 @@
 
 
 
-<% if conf[current_action][:sidebar] || conf[current_action][:tracker] %>
+<% if conf[current_action][:sidebar] || conf[current_action][:sidebar1] || conf[current_action][:tracker] %>
   <div id="leftbar">
     <% if conf[current_action][:categories_in_sidebar] %>
+      <%= render 'shared/category_name_image' %>
+    <% end %>
+    <% if conf[current_action][:categories_in_sidebar1] %>
       <%= render 'shared/category_name_image' %>
     <% end %>
     <% if conf[current_action][:tracker] %>
       <%= render 'shared/tracker' %>
     <% end %>
+    <% if conf[current_action][:sidebar1] %>
+      <%= render 'shared/sidebar1' %>
+    <% else %>
     <% if conf[current_action][:sidebar] %>
       <%= render 'shared/sidebar' %>
+    <% end %>
     <% end %>
   </div>
   <div class="container-fluid">
