@@ -446,18 +446,24 @@ function updateSidebar() {
     if (isMandatoryProject(id)) {
       if (costs[i] > 0) {
         $('#sidebar-item'+id).addClass('success');
+        $('#sidebar1-item'+id).addClass('success');
       } else {
         $('#sidebar-item'+id).removeClass('success');
+        $('#sidebar1-item'+id).removeClass('success');
       }
     } else {
       if (isProjectSelected(id)) {
         $('#sidebar-item'+id).addClass('success');
+        $('#sidebar1-item'+id).addClass('success');
       } else {
         $('#sidebar-item'+id).removeClass('success');
+        $('#sidebar1-item'+id).removeClass('success');
         if (canSelectProject(id)) {
           $('#sidebar-item'+id).removeClass('disabled');
+          $('#sidebar1-item'+id).removeClass('disabled');
         } else {
           $('#sidebar-item'+id).addClass('disabled');
+          $('#sidebar1-item'+id).addClass('disabled');
         }
       }
     }
