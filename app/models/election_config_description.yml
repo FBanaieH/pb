@@ -268,6 +268,11 @@
 
     - name: categories_in_sidebar
       default: false
+      # description: "Enable this only for single category approval pages." -- token voting
+      # condition: "c('categorized') && (c('approval.pages') instanceof Array) && c('approval.pages').length > 1" -- token voting
+      
+    - name: categories_in_sidebar1
+      default: false
       # description: "Enable this only for single category approval pages."
       # condition: "c('categorized') && (c('approval.pages') instanceof Array) && c('approval.pages').length > 1"
 
@@ -347,6 +352,10 @@
     - name: sidebar
       default: true
       # description: "Show a list of projects on the left side of the page."
+      
+    - name: sidebar1
+      default: true
+      # description: "Show a list of projects on the left side of the page." -- token voting
 
     - name: budgetbar
       default: true
