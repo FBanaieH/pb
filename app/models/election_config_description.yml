@@ -460,7 +460,7 @@
       # description: "Probability that the projects are shuffled. Use 1 for \"always shuffled.\" Use 0.5 for \"shuffled half of the time.\""
       # condition: "c('token.shuffle_projects')"
 
-    - name: sidebar
+    - name: sidebar1
       default: true
       # description: "Show a list of projects on the left side of the page."
 
