@@ -9,6 +9,7 @@ approval:
   allow_selection_beyond_limits: true
   shuffle_projects: true
   sidebar: true
+  sidebar1: true
   budgetbar: false
   tracker: true
   n_cols: 2
