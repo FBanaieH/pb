@@ -1691,6 +1691,27 @@ class ConfigEditor extends React.Component {
 </Conditional>
           </div>
 
+  <div className="group">
+    <label className="group-title">Limit on number of projects</label>
+    <div className="group-body">
+      <BooleanOption name="token.has_n_project_limit" db={db} label="Impose a limit on the number of projects the voter can choose" />
+      <div className="help-block"></div>
+
+      <Conditional condition={c('token.has_n_project_limit')} name="token.max_n_projects" db={db}>
+        <NumberOption name="token.max_n_projects" db={db} />
+        { ((value)=>((value >= 1) ? null : (<div className="text-danger">Value must be at least 1.</div>) ))(db.get("token.max_n_projects")) }
+        <div className="help-block">The maximum number of projects the voter can choose.</div>
+      </Conditional>
+
+      <Conditional condition={c('token.has_n_project_limit')} name="token.min_n_projects" db={db}>
+        <NumberOption name="token.min_n_projects" db={db} />
+        { ((value)=>((value >= 0) ? null : (<div className="text-danger">Value must be at least 0.</div>) ))(db.get("token.min_n_projects")) }
+        { ((value)=>((value <= c('token.max_n_projects')) ? null : (<div className="text-danger">Value must not be greater than the maximum number of projects the voter can choose.</div>) ))(db.get("token.min_n_projects")) }
+        <div className="help-block">The minimum number of projects the voter must choose.</div>
+      </Conditional>
+    </div>
+  </div>
+
           <div className="tab-pane" id="ranking-tab" role="tabpanel">
 <Conditional condition={flattenedWorkflow && flattenedWorkflow.indexOf('ranking') != -1} name="ranking" db={db}>
 
