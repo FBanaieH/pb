@@ -1567,7 +1567,7 @@ class ConfigEditor extends React.Component {
       <div className="col-sm-7">
         <BooleanOption name="token.tokenbar" db={db} label="Show the token count" />
 
-        <BooleanOption name="token.sidebar" db={db} label="Show the project list on the left side" />
+        <BooleanOption name="token.sidebar1" db={db} label="Show the project list on the left side" />
 
         <BooleanOption name="token.shuffle_projects" db={db} label="Randomize the order of projects" />
 
@@ -1589,7 +1589,7 @@ class ConfigEditor extends React.Component {
           shuffleProjects={db.get("token.shuffle_projects")}
           nCols={db.get("token.n_cols")}
           theme={db.get("token.theme")}
-          sidebar={db.get("token.sidebar")}
+          sidebar={db.get("token.sidebar1")}
           tracker={db.get("token.tracker")}
           showShuffleNote={db.get("token.show_shuffle_note")}
         />
