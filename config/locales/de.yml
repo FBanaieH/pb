@@ -455,7 +455,7 @@ sondern Teil eines Forschungsprojekts der Stanford University ist, das uns helfe
       um einen Zugangscode zu erhalten. Sobald Sie einen Zugangscode haben, geben
       Sie ihn bitte unten ein und klicken auf <b>Abstimmen</b>, um fortzufahren.
     code_placeholder: Zugangscode
-    vote_button: Abstimmen
+    vote_button: Weiter
     wrong_access_code: Falscher Zugangscode
     used_access_code: Dieser Zugangscode wurde bereits verwendet
   other_signup:
@@ -465,7 +465,7 @@ sondern Teil eines Forschungsprojekts der Stanford University ist, das uns helfe
       Sie bitte hier</a>, um eine andere Methode für die Online-Abstimmung zu verwenden.
     zipcode_placeholder: Postleitzahl
     account_number_placeholder: Account-Nummer
-    vote_button: Abstimmen
+    vote_button: Weiter
     wrong_account_number: Falsche Account-Nummer oder Postleitzahl
     used_account_number: Diese Account-Nummer wurde bereits verwendet
   free_signup:
