@@ -114,13 +114,13 @@ de:
       text: Sie haben %{count} Projekte ausgewählt.
       x_out_of_y: "%{x} / %{y}"
     budgetbar:
-      text: "%{total} vom %{budget} Gesamtbudget ausgewählt."
+      text: "%{total} vom %{budget} budget ausgewählt."
       under_budget: Ihnen stehen noch %{remaining_money} zur Verfügung.
       over_budget: Sie sind aktuell über dem Budget.
       over_budget_but_can_add_projects: Sie sind aktuell über dem Budget, aber Sie
         können noch Projekte hinzufügen.
     tokenbar: #FIXME: translate
-      text: "%{total} von %{budget} der Gesamt Punkte ausgewählt."
+      text: "%{total} von %{budget} der Punkte ausgewählt."
       under_token: "Sie haben noch %{remaining_money} Punkte übrig."
       over_token: "Sie haben derzeit mehr Punkte verwendet als verfügbar. Bitte reduzieren Sie die ausgegebenen Punkte auf weniger als das Maximum."
       over_budget_but_can_add_tokens: "Sie sind derzeit über dem Budget, können jedoch weiterhin Punkte hinzufügen."
