@@ -362,11 +362,11 @@ sondern Teil eines Forschungsprojekts der Stanford University ist, das uns helfe
       body:
         summary:
           zero: "<span style='color: red;'>You haven't selected any projects.</span>"
-          other: "You have selected the following projects: %{projects}"
+          other: "Sie haben folgenden Projekten Punkte verteilt: %{projects}"
           item: "%{project} (%{cost})"
         summary_token:
           zero: "<span style='color: red;'>You haven't selected any project.</span>"
-          other: "You have selected tokens for the following projects: %{projects}"
+          other: "Sie haben folgenden Projekten Punkte verteilt: %{projects}"
           item: "%{project} (%{cost} tokens)"
 
         under_n_project_limit:
