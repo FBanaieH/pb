@@ -100,7 +100,7 @@ de:
           das untenstehende Kästchen an und klicken Sie dann auf "Meine Stimme abgeben".
         checkbox: Ich verstehe, dass ich meine Stimme nach der Abgabe <strong>nicht
           mehr</strong> ändern kann.
-      ok: Meine Stimme abgeben
+      ok: Jetzt Abstimmen
       cancel: Zurück
     confirmation_over_limit:
       title: Ihre Stimme konnte nicht abgegeben werden
