@@ -473,7 +473,7 @@ sondern Teil eines Forschungsprojekts der Stanford University ist, das uns helfe
     instruction: Bitte geben Sie Ihre Postleitzahl ein
     placeholder: Postleitzahl
     captcha: Bitte tippen Sie <b>%{captcha}</b> unten ein
-    vote_button: Abstimmen
+    vote_button: Starten
   registration:
     title: Persönliche Angaben
     header: Persönliche Angaben
