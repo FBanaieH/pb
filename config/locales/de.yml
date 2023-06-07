@@ -402,7 +402,8 @@ sondern Teil eines Forschungsprojekts der Stanford University ist, das uns helfe
   thanks:
     title: Vielen Dank
     description:
-      real: Danke für Ihre Stimme. Bitte klicken Sie unten auf "Beenden".
+      real: Sie haben jetzt für die Stadtidee abgestimmt. Vielen Dank! Sie können nun auf "Beenden" klicken.
+
       demo: 'Danke, dass Sie das digitale Interface für das partizipative Budget getestet
         haben.<span style=''color: red;''><strong>Bitte beachten Sie, dass dies nur
         eine <u>Vorschau</u> ist.</strong></span>'
