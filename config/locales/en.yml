@@ -417,7 +417,7 @@ Board at 650-723-2480.</p>"
     projects: "Projects"
 
   election:
-    can_also_vote_in_person: "You can also come to one of the following places to cast your vote:"
+    can_also_vote_in_person: ""
     info: "<h3>Voting Locations</h3>
            <b>Saturday, September 27</b> &nbsp; (12:00 noon - 4:00 p.m.)<br>
            Somewhere<br>
