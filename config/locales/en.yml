@@ -360,11 +360,11 @@ Board at 650-723-2480.</p>"
         under_n_project_limit:
           one: "<span style='color: red;'>You have selected only one project.</span>"
           less: "<span style='color: red;'>You have selected only %{count} projects.</span>"
-          limit: "<span style='color: red;'>You can vote for up to %{max_n_projects} projects.</span>"
+          limit: "<span style='color: red;'></span>"
         under_token_limit:
           one: "<span style='color: red;'>You have selected only one token.</span>"
           less: "<span style='color: red;'>You have selected only %{count} tokens.</span>"
-          limit: "<span style='color: red;'>You can select up to %{total_tokens} tokens.</span>"
+          limit: "<span style='color: red;'></span>"
 
         warning: "After submitting your vote, you <strong>cannot</strong> change your vote."
       ok: "Submit My Vote"
