@@ -2,7 +2,7 @@ en:
   navigation:  # Text on the navigation bar
     brand: "PB"  # Text at the top left corner
     home: "Home"  # Link to the home page
-    about: " "  # Link to the About page
+    about: "About"  # Link to the About page
     help: "Help"  # Link to the Help page.
     exit: "Exit"  # Link to exit the voting.
 
