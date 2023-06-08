@@ -398,11 +398,16 @@ Board at 650-723-2480.</p>"
 
   about:
     title: "About"
-    description: "<center><h1 class='sub-header'>About the digital participatory budgeting interface</h1></center>
-    <br><p class='lead'>The digital participatory budgeting interface has been developed by the <a href='https://voxpopuli.stanford.edu/' target='_blank'>Stanford Crowdsourced Democracy Team</a>. We hope that the visual nature of the interface and the richness of the information presented will help you learn about the projects and cast more informative votes.</p>
-    <p class='lead'>This is an open source project licensed under the GNU GPL v3.0 license. You can find the source code on <a href='https://github.com/StanfordCDT/pb' target='_blank'>GitHub</a>.</p>
-    <p class='lead'>If you have technical problems or you want to give feedback, please email <a href='mailto:feedback@pbstanford.org' target='_blank'>feedback@pbstanford.org</a> and we will try to get back to you as soon as possible.</p>"
-
+    description: "<center><h1 class='sub-header'>What is the method of equal shares?</h1></center>
+    <br><p class='lead'>It is an alternative method applied to Aarau City Idea to promote a more fair selection of winning projects that meet the budget constraints of CHF 50,000. Instead of exclusively selecting the projects with the most votes, the algorithm of equal shares prioritizes projects that satisfy more voters. This means that popular costly projects with several votes may be sacrificed for projects that have lower costs and broader support by voters.</p>
+    <p class='lead'><a href='https://equalshares.net' target='_blank'>https://equalshares.net</a></p>
+    <p class='lead'>Cumulative voting is the method used for voters to express their preferences. Voters distribute a number of points to their preferred projects. More points for a certain project represent stronger preference for this project compared to others. This means that minority groups may give higher chances to their projects to win if they assign most of their points, while encouraging a more proportional representation in the broader population.</p>"
+    <p class='lead'><a href='https://en.wikipedia.org/wiki/Cumulative_voting' target='_blank'>https://en.wikipedia.org/wiki/Cumulative_voting</a></p>
+    <p class='lead'>The City Idea is supported by an international scientific team funded by the Swiss National Science Foundation (<a href='https://equalshares.net</a>https://www.nfp77.ch/en/portfolio/trust-and-legitimation-in-the-digital-democracy' target='_blank'>https://www.nfp77.ch/en/portfolio/trust-and-legitimation-in-the-digital-democracy</a>). It involves the following partners from University of Fribourg, ETH Zurich and University of Leeds.</p>
+    <p class='lead'>City Idea is based on the digital voting platform of Stanford Participatory Budgeting. The platform is customized to support the design voting campaign. The software code is open course and available in the following links:</p>
+    <p class='lead'><a href='https://pbstanford.org' target='_blank'>https://pbstanford.org</a></p>
+    <p class='lead'><a href='https://github.com/DISC-Systems-Lab/SPB-Stadtidee' target='_blank'>https://github.com/DISC-Systems-Lab/SPB-Stadtidee</a></p>
+    
   result:
     title: "Results"
     vote_results: "Vote Results"
