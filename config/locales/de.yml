@@ -367,7 +367,7 @@ sondern Teil eines Forschungsprojekts der Stanford University ist, das uns helfe
         summary_token:
           zero: "<span style='color: red;'>You haven't selected any project.</span>"
           other: "Sie haben folgenden Projekten Punkte verteilt: %{projects}"
-          item: "%{project} (%{cost} tokens)"
+          item: "%{project} (%{cost} Punkte)"
 
         under_n_project_limit:
           one: "<span style='color: red;'>Sie haben 1 Projekte ausgewählt. .</span>"
@@ -378,7 +378,7 @@ sondern Teil eines Forschungsprojekts der Stanford University ist, das uns helfe
           less: "<span style='color: red;'>Sie haben %{count} Punkte ausgewählt.</span>"
           limit: "<span style='color: red;'></span>"
 
-        warning: "Nachdem Sie auf <strong>jetzt abstimmen</strong> geklickt haben, können Sie Ihre Auswahl nicht mehr änder"
+        warning: "Nachdem Sie auf <strong>jetzt abstimmen</strong> geklickt haben, können Sie Ihre Auswahl nicht mehr ändern"
       ok: "Submit My Vote"
       cancel: "Go Back"
     adjustable_cost_project:
