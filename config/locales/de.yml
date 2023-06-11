@@ -2,7 +2,7 @@ de:
   navigation:
     brand: PB
     home: Home
-    about: 
+    about: Über 
     help: Hilfe
     exit: Beenden
   index:
@@ -410,18 +410,17 @@ sondern Teil eines Forschungsprojekts der Stanford University ist, das uns helfe
     exit: Beenden
   about:
     title: Über
-    description: "<center><h1 class='sub-header'>Über das digitale Interface für partizipative
-      Budgetprozesse</h1></center> <br><p class='lead'>Das digitale Interface für
-      partizipative Budgetprozesse wurde vom <a href='https://voxpopuli.stanford.edu/'
-      target='_blank'>Stanford Crowdsourced Democracy Team</a> entwickelt. Wir hoffen,
-      dass Ihnen die visuelle Art und die Menge der gezeigten Informationen helfen,
-      sich mit den Projekten vertraut zu machen und Ihre Abstimmung auf mehr Informationen
-      zu stützen. .</p> <p class='lead'>Dies ist ein Open-Source-Projekt, lizenziert
-      unter der GNU GPL v3.0 Lizenz. Den Source-Code finden Sie unter <a href='https://github.com/StanfordCDT/pb'
-      target='_blank'>GitHub</a>.</p> <p class='lead'>Falls Sie technische Probleme
-      haben oder Feedback geben wollen, senden Sie bitte eine E-Mail an <a href='mailto:feedback@pbstanford.org'
-      target='_blank'>feedback@pbstanford.org</a> and we will try to get back to you
-      as soon as possible.</p>"
+    description: "<center><h1 class='sub-header'>Was ist die Methode der gleichen Anteile?</h1></center>
+    <br><p class='lead'>Es handelt sich um eine alternative Abstimmungsmethode, die bei der Stadtidee in Aarau angewendet wird. Sie soll eine gerechtere Auswahl der Siegerprojekte fördern, die die Budgetvorgaben von 50'000 CHF erfüllen. Anstatt ausschliesslich die Projekte mit den meisten Stimmen auszuwählen, priorisiert der Algorithmus der gleichen Anteile die Projekte, die mehr Wählerinnen und Wähler zufrieden stellen. Das bedeutet, dass beliebte, teure Projekte zugunsten von Projekten mit geringeren Kosten und breiterer Unterstützung durch die Wählerinnen und Wähler geopfert werden können.</p>
+    <p class='lead'><a href='https://equalshares.net' target='_blank'>Erfahren Sie mehr über die Methode der gleichen Anteile (auf Englisch)</a></p>
+    <center><h1 class='sub-header'>Wie kann man abstimmen und die eigenen Präferenzen ausdrücken?</h1></center>
+    <p class='lead'>Die kumulative Abstimmung ist die Methode, mit der die Wählerinnen und Wähler ihre Präferenzen zum Ausdruck bringen können. Die Wählerinnen und Wähler verteilen eine bestimmte Anzahl von Punkten auf ihre bevorzugten Projekte. Mehr Punkte für ein bestimmtes Projekt bedeuten eine stärkere Präferenz für dieses Projekt im Vergleich zu anderen. Das bedeutet, dass Minderheitengruppen ihren Projekten höhere Gewinnchancen einräumen können, wenn sie die meisten Punkte vergeben, und gleichzeitig eine proportionalere Vertretung in der breiteren Bevölkerung fördern.</p>
+    <p class='lead'><a href='https://en.wikipedia.org/wiki/Cumulative_voting' target='_blank'>Erfahren Sie mehr über die kumulative Abstimmung</a></p>
+    <center><h1 class='sub-header'>Über die Abstimmung</h1></center>
+    <p class='lead'> Die Stadtidee wird von einem internationalen wissenschaftlichen Team unterstützt, das vom Schweizerischen Nationalfonds finanziert wird. Daran beteiligt sind die folgenden Partner: Universität Fribourg (CH), ETH Zürich und Universität Leeds.</p>
+    <p class='lead'>Die Stadtidee basiert auf der digitalen Abstimmungsplattform von Stanford Participatory Budgeting. Die Plattform wurde angepasst, um die Abstimmungskampagne zu unterstützen. Der Softwarecode ist natürlich offen und unter den folgenden Links verfügbar:</p>
+    <p class='lead'><a href='https://pbstanford.org' target='_blank'>Stanford PB</a></p>
+    <p class='lead'><a href='https://github.com/DISC-Systems-Lab/SPB-Stadtidee' target='_blank'>Github Stanford PB</a></p>"
   result:
     title: Resultate
     vote_results: Abstimmungsresultate
