@@ -119,8 +119,8 @@ class ApplicationController < ActionController::Base
   end
 
   def cost_with_delimiter(cost, currency_symbol)
-    if I18n.locale == :fr || I18n.locale == :pl
-      number_with_delimiter(cost, delimiter: " ", separator: ",") + ' ' + currency_symbol
+    if I18n.locale == :de
+      number_with_delimiter(cost, delimiter: "'", separator: ",") + ' ' + currency_symbol
     else
       currency_symbol + number_with_delimiter(cost)
     end
