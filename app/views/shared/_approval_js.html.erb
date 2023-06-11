@@ -23,7 +23,7 @@
 
 function numberWithDelimiter(val) {
   var locale = "<%=j I18n.locale.to_s %>";
-  var delimiter = (locale == "fr" || locale == "pl") ? " " : ",";
+  var delimiter = (locale == "de") ? "'" : ",";
   val = val.toString();
   while (/(\d+)(\d{3})/.test(val)) {
     val = val.replace(/(\d+)(\d{3})/, '$1' + delimiter + '$2');
@@ -33,7 +33,7 @@ function numberWithDelimiter(val) {
 
 function costWithDelimiter(val, currencySymbol) {
   var locale = "<%=j I18n.locale.to_s %>";
-  if (locale == "fr" || locale == "pl")
+  if (locale == "de")
     return numberWithDelimiter(val) + " " + currencySymbol;
   return currencySymbol + numberWithDelimiter(val);
 }
