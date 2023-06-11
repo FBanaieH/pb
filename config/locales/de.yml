@@ -370,13 +370,13 @@ sondern Teil eines Forschungsprojekts der Stanford University ist, das uns helfe
           item: "%{project} (%{cost} Punkte)"
 
         under_n_project_limit:
-          one: "<span style='color: red;'>Sie haben 1 Projekte ausgewählt. .</span>"
-          less: "<span style='color: red;'>Sie haben %{count} Projekte ausgewählt. </span>"
-          limit: "<span style='color: red;'></span>"
+          one: "<span style='color: green;'>Sie haben 1 Projekte ausgewählt. .</span>"
+          less: "<span style='color: green;'>Sie haben %{count} Projekte ausgewählt. </span>"
+          limit: "<span style='color: green;'></span>"
         under_token_limit:
-          one: "<span style='color: red;'>Sie haben 1 Punkte ausgewählt. </span>"
-          less: "<span style='color: red;'>Sie haben %{count} Punkte ausgewählt.</span>"
-          limit: "<span style='color: red;'></span>"
+          one: "<span style='color: green;'>Sie haben 1 Punkte ausgewählt. </span>"
+          less: "<span style='color: green;'>Sie haben %{count} Punkte ausgewählt.</span>"
+          limit: "<span style='color: green;'></span>"
 
         warning: "Nachdem Sie auf <strong>jetzt abstimmen</strong> geklickt haben, können Sie Ihre Auswahl nicht mehr ändern"
       ok: "Submit My Vote"
