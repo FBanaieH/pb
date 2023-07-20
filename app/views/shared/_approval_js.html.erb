@@ -547,7 +547,7 @@ function updateTokenbar() {
   var cls = (total <= total_tokens) ? 'success' : 'danger'; // TODO: use other colors
   var budget2 = (total <= total_tokens) ? total_tokens : total;
   var progressBarForProject = function(id) {
-    var width = costs[idToIndex[id]] / budget2 * 100;
+    var width = costs[idToIndex[id]]**2 / budget2 * 100;
     if (width <= 0)
       return '';
     var photo_name = "";
