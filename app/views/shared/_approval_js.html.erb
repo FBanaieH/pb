@@ -699,7 +699,7 @@ function updateModal() {
         var project = projects[i];
         if (costs[i] > 0) {
           adjustable_cost_project_summary += '<%=j t("#{current_action}.adjustable_token_project.message").html_safe %>'
-            .replace('%{cost}', costWithDelimiter(costs[i], ' '))
+            .replace('%{cost}', costWithDelimiter(costs[i]**2, ' '))
             .replace('%{project}', project.title) + '<br><br>';
         } else {
           adjustable_cost_project_summary += adjustable_token_project_warning.replace('%{project}', project.title) + "<br><br>";
