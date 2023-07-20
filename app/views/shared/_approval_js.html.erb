@@ -924,7 +924,7 @@ function selectOrRemoveProject(id) {
 function getTotal() {
   var total = 0;
   for (var i = 0; i < projects.length; ++i) {
-    total += costs[idToIndex[projects[i].id]];
+    total += costs[idToIndex[projects[i].id]]**2;
   }
   return total;
 }
